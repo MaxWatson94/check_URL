@@ -3,7 +3,7 @@ from headers import headers
 import time
 
 def getLink(file):
-    # Open file with sites and readlines
+    # Open file with sites and readline
     with open(file) as file:
         url = [row.strip() for row in file]
     # After run funtions where wee try to check sites
